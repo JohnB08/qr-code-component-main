@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: hsl(218, 44%, 22%);
+  font-family: "Outfit", sans-serif;
+}
+body {
+  background-image: url(https://static.vecteezy.com/system/resources/previews/000/634/192/original/vector-gray-white-grid-mosaic-background-creative-design-templates.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 15px;
+}
+.background,
+.container,
+.textcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.background,
+.container {
+  align-items: center;
+}
+.background {
+  background: hsl(212, 45%, 89%);
+  width: 90vw;
+  height: 90vh;
+  margin: 5vh auto;
+  box-shadow: 0 1em 1em hsl(220, 15%, 55%);
+}
+.container {
+  margin: auto;
+  background: white;
+  width: 330px;
+  border-radius: 2em;
+}
+.imagecontainer,
+.textcontainer {
+  width: 90%;
+}
+.imagecontainer {
+  margin-top: 1em;
+}
+.textcontainer {
+  margin-top: 1.5em;
+  gap: 1.5em;
+  margin-bottom: 2em;
+  padding: 0 1em;
+  text-align: center;
+}
+.textcontainer h1 {
+  font-weight: 700;
+}
+.imagecontainer img {
+  width: 100%;
+  height: 100%;
+  border-radius: 1.5em;
+}
+.attribution {
+  margin-bottom: 1em;
+}
+@media only screen and (max-width: 900px) {
+  body {
+    background-image: none;
+  }
+  .background {
+    width: 100vw;
+    height: 100vh;
+    box-shadow: none;
+    margin: 0;
+  }
+}
