@@ -6,29 +6,23 @@
   font-family: "Outfit", sans-serif;
 }
 body {
-  background-image: url(https://static.vecteezy.com/system/resources/previews/000/634/192/original/vector-gray-white-grid-mosaic-background-creative-design-templates.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
   font-size: 15px;
+  background: hsl(212, 45%, 89%);
+  width: 100vw;
+  height: 100vh;
 }
-.background,
+body,
 .container,
 .textcontainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.background,
+body,
 .container {
   align-items: center;
 }
-.background {
-  background: hsl(212, 45%, 89%);
-  width: 90vw;
-  height: 90vh;
-  margin: 5vh auto;
-  box-shadow: 0 1em 1em hsl(220, 15%, 55%);
-}
+
 .container {
   margin: auto;
   background: white;
