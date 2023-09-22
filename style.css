@@ -43,7 +43,7 @@ body,
   padding: 0 1em;
   text-align: center;
 }
-.textcontainer h1 {
+.textcontainer h2 {
   font-weight: 700;
 }
 .imagecontainer img {
@@ -53,15 +53,4 @@ body,
 }
 .attribution {
   margin-bottom: 1em;
-}
-@media only screen and (max-width: 900px) {
-  body {
-    background-image: none;
-  }
-  .background {
-    width: 100vw;
-    height: 100vh;
-    box-shadow: none;
-    margin: 0;
-  }
 }
