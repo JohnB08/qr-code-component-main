@@ -33,7 +33,7 @@ body {
   margin: auto;
   background: white;
   width: 330px;
-  border-radius: 2em;
+  border-radius: 1.5em;
 }
 .imagecontainer,
 .textcontainer {
@@ -55,7 +55,7 @@ body {
 .imagecontainer img {
   width: 100%;
   height: 100%;
-  border-radius: 1.5em;
+  border-radius: 1em;
 }
 .attribution {
   margin-bottom: 1em;
